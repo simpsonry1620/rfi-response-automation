@@ -53,6 +53,7 @@ coverage.xml
 cover/
 
 # Workbench Project Layout
+<<<<<<< HEAD
 data/scratch/*
 <<<<<<< HEAD
 =======
@@ -62,4 +63,7 @@ data/rfi-docs/*
 data/nvlinks.txt
 data/script.log
 >>>>>>> 7c227c6 (Changed env w/ apt & pip & more...)
+=======
+data/*
+>>>>>>> ffb49b4 (Modified .gitignore)
 !data/scratch/.gitkeep
