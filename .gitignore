@@ -54,4 +54,12 @@ cover/
 
 # Workbench Project Layout
 data/scratch/*
+<<<<<<< HEAD
+=======
+data/partner-docs/*
+data/nvidia-text-archive/*
+data/rfi-docs/*
+data/nvlinks.txt
+data/script.log
+>>>>>>> 7c227c6 (Changed env w/ apt & pip & more...)
 !data/scratch/.gitkeep

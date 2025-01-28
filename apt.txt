@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 # apt packages to install should be listed one per line
+=======
+lynx
+libnss3
+libnspr4
+libglib2.0-0
+>>>>>>> 7c227c6 (Changed env w/ apt & pip & more...)
