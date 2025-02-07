@@ -53,5 +53,7 @@ coverage.xml
 cover/
 
 # Workbench Project Layout
-data/scratch/*
+data/*
 !data/scratch/.gitkeep
+
+data/scratch/*

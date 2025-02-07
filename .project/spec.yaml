@@ -27,13 +27,14 @@ environment:
     build_timestamp: "20231114175838"
     name: Python Basic
     supported_architectures: []
-    cuda_version: ""
+    cuda_version: "12.4"
     description: A Python Base with Jupyterlab
     entrypoint_script: ""
     labels:
     - ubuntu
     - python3
     - jupyterlab
+    - cuda12.4
     apps:
     - name: jupyterlab
       type: jupyterlab
@@ -90,9 +91,11 @@ execution:
   apps: []
   resources:
     gpu:
-      requested: 0
-    sharedMemoryMB: 0
-  secrets: []
+      requested: 1
+    sharedMemoryMB: 1024
+  secrets:
+  - variable: NVIDIA_API_KEY
+    description: Key needed to access NGC
   mounts:
   - type: project
     target: /project/

@@ -1,1 +1,13 @@
-# apt packages to install should be listed one per line
+chromium-browser
+libnss3
+libgconf-2-4 
+libatk-bridge2.0-0 
+libxss1
+libasound2
+fonts-liberation
+libappindicator3-1
+xdg-utils
+chromium-chromedriver
+libxtst6
+libdrm2
+libgbm1
